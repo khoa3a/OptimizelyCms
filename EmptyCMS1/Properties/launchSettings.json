@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EmptyCMS1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Episerver/CMS",
+      "applicationUrl": "https://localhost:5000/"
+    }
+  }
+}
