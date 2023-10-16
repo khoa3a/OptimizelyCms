@@ -5,15 +5,15 @@ using EPiServer.ServiceLocation;
 using EPiServer.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmptyCMS1.Controllers
+namespace EmptyCMS1.Controllers.Pages
 {
     public class HomePageController : PageController<HomePage>
-    {        
-        public IActionResult Index(HomePage currentContent) 
+    {
+        public IActionResult Index(HomePage currentContent)
         {
             var viewModel = new HomePageViewModel(currentContent);
 
-            return View(viewModel); 
+            return View(viewModel);
         }
     }
 }

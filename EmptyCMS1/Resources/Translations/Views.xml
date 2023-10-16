@@ -53,6 +53,16 @@
 					</body>
 				</properties>
 			</contactpage>
+			<mediapage>
+				<properties>
+					<header>
+						Demo block and media
+					</header>
+					<body>
+						Image goes here
+					</body>
+				</properties>
+			</mediapage>
 		</contenttypes>
 	</language>
 	<language name="nl" id="nl">
@@ -108,6 +118,16 @@
 					</body>
 				</properties>
 			</contactpage>
+			<mediapage>
+				<properties>
+					<header>
+						Demoblok en media
+					</header>
+					<body>
+						Afbeelding komt hier
+					</body>
+				</properties>
+			</mediapage>
 		</contenttypes>
 	</language>
 </languages>

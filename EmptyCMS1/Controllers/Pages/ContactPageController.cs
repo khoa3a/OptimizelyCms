@@ -3,7 +3,7 @@ using EmptyCMS1.Models.ViewModels;
 using EPiServer.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmptyCMS1.Controllers
+namespace EmptyCMS1.Controllers.Pages
 {
     public class ContactPageController : PageController<ContactPage>
     {
