@@ -20,7 +20,7 @@ namespace EmptyCMS1.Models.Pages
             Name = "Media Area",
             GroupName = SystemTabNames.Content,
             Order = 20)]
-        [AllowedTypes(AllowedTypes = new[] { typeof(MediaBlock)})]
+        [AllowedTypes(AllowedTypes = new[] { typeof(MediaBlock) })]
         public virtual ContentArea? MediaArea { get; set; }
     }
 }

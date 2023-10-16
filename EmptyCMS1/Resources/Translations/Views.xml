@@ -22,23 +22,23 @@
 					</header>
 					<body>
 						<![CDATA[
-						<ul>
-						<li>Installation: Run cmd as administrator, then use command line to install the Optimizely templates and install the Episerver CLI Tool.</li>
-						<li>Page Types: A website is a set of pages, one page is linked with one url, content of page is html.</li>
-						<li>Block Types: Block is a partial view, block does not link to any url, block located inside a page (or another block)</li>
-						<li>Template Resolver: In an Episerver website, a page URL does not map to a specific controller and an action method. 
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Installation</h3><p>Run cmd as administrator, then use command line to install the Optimizely templates and install the Episerver CLI Tool.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Page Types</h3><p>A website is a set of pages, one page is linked with one url, content of page is html.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Block Types</h3><p>Block is a partial view, block does not link to any url, block located inside a page (or another block).</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Template Resolver</h3><p>In an Episerver website, a page URL does not map to a specific controller and an action method. 
 						Instead, the Url maps to a virtual page stored within the Episerver database.
-						When a request comes in, the template resolvers job is to find the correct template to use for that request.</li>
-						<li>TemplateDescriptor is an optional attribute that registers templates, and is involved when the system determines which template to use when rendering a content.</li>
-						<li>EPiServer.Web.DisplayChannel is a base class that is used for creating display channels, to detect viewport settings, and select templates to render content for a targeted device (desktop, tablet, mobile).</li>
-						<li>We can config DisplayOptions  to choose how the content should be laid out (full, wide, narrow).</li>
-						<li>Episerver Forms is an add-ons, support multi-step actions for website users to do event registrations, job applications, customer surveys.</li>
-						<li>TinyMCE is a rich-text editor that allows users to create formatted content within a user-friendly interface.</li>
-						<li>Media inherits from MediaData is a type content (like pages, blocks), it's content is structured in binary, for example media of type images, video, and text or PDF files.</li>
-						<li>Blob: unstructured data (file chunk, a fragment of information which is used in many media).</li>
-						<li>Globalization and Localization.</li>
-						<li>Scheduled Job</li>
-						</ul>
+						When a request comes in, the template resolvers job is to find the correct template to use for that request.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>TemplateDescriptor</h3><p>Is an optional attribute that registers templates, and is involved when the system determines which template to use when rendering a content.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>DisplayChannel</h3><p>EPiServer.Web.DisplayChannel is a base class that is used for creating display channels, to detect viewport settings, and select templates to render content for a targeted device (desktop, tablet, mobile).</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>DisplayOptions</h3><p>We can config DisplayOptions  to choose how the content should be laid out (full, wide, narrow).</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Episerver Forms</h3><p>Is an add-ons, support multi-step actions for website users to do event registrations, job applications, customer surveys.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>TinyMCE</h3><p>Is a rich-text editor that allows users to create formatted content within a user-friendly interface.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Media</h3><p>Inherits from MediaData is a type content (like pages, blocks), it's content is structured in binary, for example media of type images, video, and text or PDF files.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Blob</h3><p>Unstructured data (file chunk, a fragment of information which is used in many media). Read and write blob using IBlobFactory.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Globalization and Localization</h3><p>Create and display website content in different languages.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Scheduled Job</h3><p>Create class inherits ScheduledJobBase</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Permissions</h3><p>By configuring access rights in Optimizely CMS, you can control what visitors and users can see and do on the website, and in the user interface.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Episerver Find</h3><p>Is a function that help website users to quickly find what they are looking for.</p></div></div></div>
 						]]>
 					</body>
 				</properties>
@@ -87,23 +87,23 @@
 					</header>
 					<body>
 						<![CDATA[
-						<ul>
-						<li>Installatie: Voer cmd uit als beheerder en gebruik vervolgens de opdrachtregel om de Optimizely-sjablonen te installeren en de Episerver CLI Tool te installeren.</li>
-						<li>Paginatypen: Een website is een reeks pagina's, één pagina is gekoppeld aan één URL, de inhoud van de pagina is html.</li>
-						<li>Bloktypes: Blok is een gedeeltelijke weergave, blok linkt niet naar een URL, blok bevindt zich binnen een pagina (of een ander blok)</li>
-						<li>Sjabloonoplosser: Op een Episerver-website verwijst een pagina-URL niet naar een specifieke controller en een actiemethode.
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Installatie</h3><p>Voer cmd uit als beheerder en gebruik vervolgens de opdrachtregel om de Optimizely-sjablonen te installeren en de Episerver CLI Tool te installeren.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Paginatypen</h3><p>Een website is een reeks pagina's, één pagina is gekoppeld aan één URL, de inhoud van de pagina is html.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Bloktypes</h3><p>Blok is een gedeeltelijke weergave, blok linkt niet naar een URL, blok bevindt zich binnen een pagina (of een ander blok).</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Sjabloonoplosser</h3><p>Op een Episerver-website verwijst een pagina-URL niet naar een specifieke controller en een actiemethode.
 						In plaats daarvan verwijst de URL naar een virtuele pagina die is opgeslagen in de Episerver-database.
-						Wanneer er een verzoek binnenkomt, is het de taak van de sjabloonoplossers om het juiste sjabloon te vinden dat voor dat verzoek kan worden gebruikt.</li>
-						<li>TemplateDescriptor is een optioneel attribuut dat sjablonen registreert en wordt betrokken wanneer het systeem bepaalt welke sjabloon moet worden gebruikt bij het weergeven van inhoud.</li>
-						<li>EPiServer.Web.DisplayChannel is een basisklasse die wordt gebruikt voor het maken van weergavekanalen, het detecteren van viewport-instellingen en het selecteren van sjablonen om inhoud weer te geven voor een gericht apparaat (desktop, tablet, mobiel).</li>
-						<li>We kunnen DisplayOptions configureren om te kiezen hoe de inhoud moet worden opgemaakt (volledig, breed, smal).</li>
-						<li>Episerver Forms is een add-on die acties in meerdere stappen ondersteunt voor websitegebruikers om evenementregistraties, sollicitaties en klantonderzoeken uit te voeren.</li>
-						<li>TinyMCE is een rich-text-editor waarmee gebruikers opgemaakte inhoud kunnen creëren binnen een gebruiksvriendelijke interface.</li>
-						<li>Media die overerven van MediaData zijn een type-inhoud (zoals pagina's, blokken). De inhoud is binair gestructureerd, bijvoorbeeld media van het type afbeeldingen, video en tekst- of PDF-bestanden.</li>
-						<li>Blob: ongestructureerde gegevens (bestandsfragment, een informatiefragment dat in veel media wordt gebruikt).</li>
-						<li>Globalisering en lokalisatie.</li>
-						<li>Geplande taak.</li>
-						</ul>
+						Wanneer er een verzoek binnenkomt, is het de taak van de sjabloonoplossers om het juiste sjabloon te vinden dat voor dat verzoek kan worden gebruikt.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>TemplateDescriptor</h3><p>Is een optioneel attribuut dat sjablonen registreert en wordt betrokken wanneer het systeem bepaalt welke sjabloon moet worden gebruikt bij het weergeven van inhoud.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Display Chanel</h3><p>Is een basisklasse die wordt gebruikt voor het maken van weergavekanalen, het detecteren van viewport-instellingen en het selecteren van sjablonen om inhoud weer te geven voor een gericht apparaat (desktop, tablet, mobiel).</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>DisplayOptions</h3><p>We kunnen DisplayOptions configureren om te kiezen hoe de inhoud moet worden opgemaakt (volledig, breed, smal).</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Episerver Forms</h3><p>Is een add-on die acties in meerdere stappen ondersteunt voor websitegebruikers om evenementregistraties, sollicitaties en klantonderzoeken uit te voeren.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>TinyMCE</h3><p>Is een rich-text-editor waarmee gebruikers opgemaakte inhoud kunnen creëren binnen een gebruiksvriendelijke interface.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Media</h3><p>Die overerven van MediaData zijn een type-inhoud (zoals pagina's, blokken). De inhoud is binair gestructureerd, bijvoorbeeld media van het type afbeeldingen, video en tekst- of PDF-bestanden.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Blob</h3><p>Ongestructureerde gegevens (bestandsfragment, een informatiefragment dat in veel media wordt gebruikt). Blob lezen en schrijven met IBlobFactory.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Globalisering en lokalisatie</h3><p>Creëer en toon website-inhoud in verschillende talen</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Geplande taak</h3><p>Maak klasse neemt ScheduledJobBase over</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Rechten</h3><p>Door toegangsrechten in Optimizely CMS te configureren, kunt u bepalen wat bezoekers en gebruikers kunnen zien en doen op de website en in de gebruikersinterface.</p></div></div></div>
+						<div class="col-sm-6 col-lg-4"><div class="nav-link"><div class="list-group-item-success"><h3>Episerver Find</h3><p>Is een functie waarmee websitegebruikers snel kunnen vinden wat ze zoeken.</p></div></div></div>
 						]]>
 					</body>
 				</properties>
