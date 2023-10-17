@@ -1,0 +1,14 @@
+﻿@model AbstractPage
+
+<div class="col-sm-6 col-lg-4">
+    <div class="nav-link">
+        <div class="list-group-item-success">
+            <h3>
+                <a href="@string.Format("/{0}/{1}", @ContentLanguage.PreferredCulture, Model.URLSegment)">                    
+                    @Html.PropertyFor(x=>x.Name)
+                </a>
+            </h3>
+            <p>@Html.PropertyFor(x=>x.MetaDescription)</p>
+        </div>
+    </div>
+</div>

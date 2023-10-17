@@ -63,6 +63,16 @@
 					</body>
 				</properties>
 			</mediapage>
+			<tagpage>
+				<properties>
+					<header>
+						Demo tags in Optimizely Content
+					</header>
+					<body>
+						Demo tags in Optimizely Content
+					</body>
+				</properties>
+			</tagpage>
 		</contenttypes>
 	</language>
 	<language name="nl" id="nl">
@@ -128,6 +138,16 @@
 					</body>
 				</properties>
 			</mediapage>
+			<tagpage>
+				<properties>
+					<header>
+						Demotags in Optimizely Content
+					</header>
+					<body>
+						Demotags in Optimizely Content
+					</body>
+				</properties>
+			</tagpage>
 		</contenttypes>
 	</language>
 </languages>
