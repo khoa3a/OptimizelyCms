@@ -1,0 +1,25 @@
+﻿@model FormPageViewModel
+
+<div class="wrap">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-1 order-2 order-lg-1"></div>
+
+            <div class="col-lg-10 order-1 order-lg-2">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <div class="wysiwyg with-drop-cap">
+                            <h5>@Html.PropertyFor(x=>x.PageBody)</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl-4"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-1 order-2 order-lg-1"></div>
+        </div>
+        <div class="row justify-content-center">
+            @Html.PropertyFor(x=>x.FormArea)
+        </div>
+    </div>    
+</div>

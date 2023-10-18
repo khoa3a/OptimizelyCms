@@ -73,6 +73,16 @@
 					</body>
 				</properties>
 			</tagpage>
+			<formpage>
+				<properties>
+					<header>
+						EPiServer.Forms
+					</header>
+					<body>
+						Enter email to receive newsletters
+					</body>
+				</properties>
+			</formpage>
 		</contenttypes>
 	</language>
 	<language name="nl" id="nl">
@@ -148,6 +158,16 @@
 					</body>
 				</properties>
 			</tagpage>
+			<formpage>
+				<properties>
+					<header>
+						EPiServer.Forms
+					</header>
+					<body>
+						Voer uw e-mailadres in om nieuwsbrieven te ontvangen
+					</body>
+				</properties>
+			</formpage>
 		</contenttypes>
 	</language>
 </languages>
