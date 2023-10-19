@@ -20,6 +20,19 @@
         </div>
         <div class="row justify-content-center">
             @Html.PropertyFor(x=>x.FormArea)
+
+            @*{
+                var contentLoader = ServiceLocator.Current.GetInstance<IContentLoader>();
+                if (Model.FormArea != null && Model.FormArea.Items.Any())
+                {
+                    foreach (var contentItem in Model.FormArea.Items)
+                    {
+                        var item = contentLoader.Get<BlockData>(contentItem.ContentLink);
+                        // output necessary properties from content instance
+                        <div>test: @item.ContentTypeID</div>
+                    }
+                }
+            }*@
         </div>
     </div>    
 </div>

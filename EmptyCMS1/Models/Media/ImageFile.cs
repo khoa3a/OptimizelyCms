@@ -15,4 +15,12 @@ namespace EmptyCMS1.Models.Media
         )]
         public virtual string? AltText { get; set; }
     }
+
+    //public class VideoFile : VideoData
+    //{ 
+    //}
+
+    //public class PdfFile : MediaData
+    //{ 
+    //}
 }
